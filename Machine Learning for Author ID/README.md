@@ -7,3 +7,21 @@ We’ll do something very similar in this project. We have a set of emails, half
 We will start by giving you a list of strings. Each string is the text of an email, which has undergone some basic preprocessing; we will then provide the code to split the dataset into training and testing sets. (In the next lessons you’ll learn how to do this preprocessing and splitting yourself, but for now we’ll give the code to you).
 
 One particular feature of Naive Bayes is that it’s a good algorithm for working with text classification. When dealing with text, it’s very common to treat each unique word as a feature, and since the typical person’s vocabulary is many thousands of words, this makes for a large number of features. The relative simplicity of the algorithm and the independent features assumption of Naive Bayes make it a strong performer for classifying texts. In this mini-project, you will download and install sklearn on your computer and use Naive Bayes to classify emails by author.
+
+To install skitlearn in Python 2
+
+```bash
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+
+Python2 get-pip.py
+
+python2 -m pip install scikit-learn
+python2 -m pip install nltk
+
+cd /ud120-projects-master/ud120-projects-master/tools
+python2 startup.py
+
+```
+
+
+
